@@ -7,6 +7,7 @@
 * TensorFlow 1.13.1
 
 *You can use **higher** version if you want*
+
 *Tested on Windows 10 64bit*
 
 ### Folder Directory
