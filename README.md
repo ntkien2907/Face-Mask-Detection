@@ -20,7 +20,7 @@
 ### Dataset
 The dataset consists of 1376 images with 690 images containing images of people wearing masks and 686 images with people without masks. [Download](https://data-flair.training/blogs/download-face-mask-data/)
 
-### How to run?
+### How to use
 * Open cmd and change the path to folder includes **test_model.py** file
 * Enter to commad line as below
     ```
