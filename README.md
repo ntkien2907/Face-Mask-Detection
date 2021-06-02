@@ -29,7 +29,7 @@
 
 ### How to use
 * Open cmd and change the path to folder includes **test_model.py** file
-* Enter to commad line as below
+* Enter to command line as below
     ```
     python test_model.py
     ```
