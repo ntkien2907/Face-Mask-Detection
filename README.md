@@ -1,5 +1,7 @@
 ## Face-Mask Detection
 
+	![Face-Mask Detector](/images/demo.gif)
+
 ### Prerequisites
 * Python 3.x
 * Numpy 1.16.2
@@ -25,7 +27,7 @@
 * Download from **00000** folder to **09000** folder
 * Here is the structure of the dataset
 
-	![Dataset Directory](dataset-directory.png)
+	![Dataset Directory](/images/dataset-directory.png)
 
 ### How to use
 * Open cmd and change the path to folder includes **test_model.py** file
