@@ -11,7 +11,7 @@
 *Tested on Windows 10 64bit*
 
 ### Folder Directory
-* **face-mask-dataset-3classes**: All images for training and testing. I do not push here because it is quite large (~5.71GB). You have to create and download by yourself following to the instruction below (in **Dataset** section) if you want to train model from scratch
+* **face-mask-dataset-3classes**: All images for training and testing. I do not push here because it is quite large (~5.71GB). You have to create and download by yourself following to the instruction below (in **Dataset** section) if you want to train model from scratch.
 * **face-mask-model.h5**: Trained model
 * **train_model.py**: Used for training model
 * **test_model**: Used for running the program
@@ -25,7 +25,7 @@
 * Download from folder **00000** to folder **09000**
 * Here is the structure of the dataset
 
-![Dataset Directory](dataset-directory.png)
+	![Dataset Directory](dataset-directory.png)
 
 ### How to use
 * Open cmd and change the path to folder includes **test_model.py** file
