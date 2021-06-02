@@ -35,3 +35,8 @@
     ```
     python test_model.py
     ```
+
+### References
+1. [Adrian Rosebrock (2020). COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
+2. [Hussain Mujtaba (2021). Real-time Face detection | Face Mask Detection using OpenCV](https://www.mygreatlearning.com/blog/real-time-face-detection/)
+3. [Real-Time Face Mask Detector with Python, OpenCV, Keras](https://data-flair.training/blogs/face-mask-detection-with-python/)
