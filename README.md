@@ -1,6 +1,5 @@
 ## Face-Mask Detection
-
-	![Face-Mask Detector](/images/demo.gif)
+![Face-Mask Detector]("/images/demo.gif")
 
 ### Prerequisites
 * Python 3.x
