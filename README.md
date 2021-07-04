@@ -30,7 +30,7 @@
 	![Dataset Directory](./images/dataset-directory.png)
 
 ### How to use
-* Open cmd and change the path to folder includes **test_model.py** file
+* Open cmd and change the path to folder which contains **test_model.py** file
 * Enter to command line as below
     ```
     python test_model.py
