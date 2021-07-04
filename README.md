@@ -4,9 +4,9 @@
 
 ### Prerequisites
 * Python 3.x
-* Numpy 1.16.2
 * OpenCV 4.5.1
-* TensorFlow 1.13.1
+* TensorFlow 2.1.0
+* Keras 2.3.1
 
 *You can use **higher** version if you want*
 
