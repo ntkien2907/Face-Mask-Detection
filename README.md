@@ -44,8 +44,11 @@
 
 ### Evaluation
 
-![Accuracy](./source/figures/accuracy.jpg) ![Loss](./source/figures/loss.jpg)  
-![Evaluation](./source/figures/evaluation.jpg)
+<p float='center'>
+  <img src='./source/figures/accuracy.jpg' width=50% />
+  <img src='./source/figures/loss.jpg' width=50% /> 
+</p>
+<img src='./source/figures/evaluation.jpg' width=50% />
 
 ### References
 1. [Adrian Rosebrock (2020). COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning.](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
