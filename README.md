@@ -31,7 +31,7 @@
 
 ---
 ### How to use
-* Step 1: Preprocessing the dataset which you have already dowloaded manually. *(Skip if using the **attached dataset**)*.
+* Step 1: Preprocessing the dataset which you have dowloaded manually. *(Skip if using the **attached dataset**)*.
     ```
     python preprocess.py
     ```
