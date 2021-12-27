@@ -26,19 +26,19 @@
     * Incorrectly Masked Face Dataset ([IMFD](https://github.com/cabani/MaskedFace-Net))
     * Flickr-Faces-HQ Dataset ([FFHQ](https://github.com/NVlabs/ffhq-dataset))
 * There are 3 classes: [incorrectly-mask](https://esigelec-my.sharepoint.com/personal/cabani_esigelec_fr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcabani%5Fesigelec%5Ffr%2FDocuments%2FMaskedFaceNetDataset%2FIMFD&originalPath=aHR0cHM6Ly9lc2lnZWxlYy1teS5zaGFyZXBvaW50LmNvbS86ZjovZy9wZXJzb25hbC9jYWJhbmlfZXNpZ2VsZWNfZnIvRWlyalM4ZXc3LTVMbk84STU2VWs2M3dCS2Vid1NsdWtGQkZCYU84TjI1d24zZz9ydGltZT1NUThJd3JBbDJVZw), [with-mask](https://esigelec-my.sharepoint.com/personal/cabani_esigelec_fr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcabani%5Fesigelec%5Ffr%2FDocuments%2FMaskedFaceNetDataset%2FCMFD&originalPath=aHR0cHM6Ly9lc2lnZWxlYy1teS5zaGFyZXBvaW50LmNvbS86ZjovZy9wZXJzb25hbC9jYWJhbmlfZXNpZ2VsZWNfZnIvRXYzR2RuUVN5enhQanl6VTVFbEhxYWdCbGtSQ2FLbm5DSTg1aVgtZDFMNE9IQT9ydGltZT1faHo2MXJBbDJVZw) and [without-mask](https://drive.google.com/drive/folders/1tg-Ur7d4vk1T8Bn0pPpUSQPxlPGBlGfv).
-* Download from **00000** folder to **11000** folder. If you want a larger dataset, download more.
+* Download from folder **00000** to folder **11000**. If you want a larger dataset, please visit the above links to download more.
 
 ---
 ### How to use
-* Step 1: Preprocess the dataset if you download data manually. *Skip this step if using the attached dataset*.
+* Step 1: Preprocessing the dataset which you have already dowloaded manually. *Skip this step if using the attached dataset*.
     ```
     python preprocess.py
     ```
-* Step 2: Train model. *Skip this step if using the attached model*.
+* Step 2: Training model. *Skip this step if using the attached model*.
     ```
     python train.py
     ```
-* Step 3: Test model through your webcam.
+* Step 3: Testing model through your webcam.
     ```
     python test.py
     ```
