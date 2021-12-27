@@ -40,6 +40,9 @@
     python test.py
     ```
 
+**Notice:** This model works best with the mask below.
+    ![Face Mask](./images/face-mask.jpg)
+
 ---
 ### Evaluation
 
