@@ -45,8 +45,8 @@
 ### Evaluation
 
 <p align='middle'>
-  <img src='./source/figures/accuracy.jpg' width=40% />
-  <img src='./source/figures/loss.jpg' width=40% /> 
+  <img src='./source/figures/accuracy.jpg' width=50% />
+  <img src='./source/figures/loss.jpg' width=50% /> 
 </p>
 <p align='middle'><img src='./source/figures/evaluation.jpg' width=50% /></p>
 
