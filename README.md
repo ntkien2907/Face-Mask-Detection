@@ -10,7 +10,7 @@
 *Tested on Windows 10 - 64 bit*
 
 ---
-### Souce folder
+### Source folder
 * **data**: All preprocessed images (128x128) for training, validating and testing. You can download the original images following to the next section.
 * **figures**: Contain accuracy, loss and classification report.
 * **face-mask-model.h5**: Trained model.
