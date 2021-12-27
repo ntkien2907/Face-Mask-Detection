@@ -11,12 +11,12 @@
 
 ---
 ### Source folder
-* **data**: All preprocessed images (128x128) for training, validating and testing. You can download the original images following to the next section.
-* **figures**: Contain accuracy, loss and classification report.
+* **data**: All preprocessed images (128x128) for training, validating, and testing. You can download original images in the following section.
+* **figures**: Include accuracy, loss, and classification report.
 * **face-mask-model.h5**: Trained model.
 * **preprocess.py**: Process the dataset.
-* **test.py** : Run the program via webcam.
-* **train.py**: Train and evaluate model.
+* **test.py**: Run the program via webcam.
+* **train.py**: Train and evaluate the model.
 * **utils.py**: A collection of small functions which make common patterns shorter and easier.
 
 ---
@@ -31,11 +31,11 @@
 
 ---
 ### How to use
-* Step 1: Preprocessing the dataset which you have dowloaded manually. *(Skip if using the **attached dataset**)*.
+* Step 1: Preprocessing the dataset which you have dowloaded manually. *Skip if using the **attached dataset***.
     ```
     python preprocess.py
     ```
-* Step 2: Training model. *(Skip if using the **attached model**)*.
+* Step 2: Training model. *Skip if using the **attached model***.
     ```
     python train.py
     ```

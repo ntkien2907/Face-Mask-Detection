@@ -64,7 +64,7 @@ datagen = ImageDataGenerator(
     horizontal_flip=True,
 )
 
-# Load the MobileNetV2 network
+# Load the MobileNetV2 network without output layer
 base_model = MobileNetV2(weights="imagenet", include_top=False, input_tensor=Input(shape=input_shape))
 
 # Our custom model
@@ -78,6 +78,7 @@ custom_model = Dense(3, activation="softmax")(custom_model)
 # Concatenate MobileNetV2 to our custom model
 model = Model(inputs=base_model.input, outputs=custom_model)
 
+# Mark loaded layers as not trainable
 for layer in base_model.layers:
     layer.trainable = False
 
