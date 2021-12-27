@@ -43,8 +43,11 @@
     ```
 
 ### Evaluation
-    ![Accuracy](./source/figures/accuracy.jpg)  
+
+    ![Accuracy](./source/figures/accuracy.jpg) 
+
     ![Loss](./source/figures/loss.jpg)
+    
     ![Evaluation](./source/figures/evaluation.jpg)
 
 ### References
