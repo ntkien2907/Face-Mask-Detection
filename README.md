@@ -40,9 +40,8 @@
     python test.py
     ```
 
-**Notice:** This model works best with the mask below.
-
-![Face Mask](./images/face-mask.jpg)
+* **Notice:** This model works best with the mask below.
+<p align='middle'><img src='./images/face-mask.jpg' width=100% /></p>
 
 ---
 ### Evaluation
