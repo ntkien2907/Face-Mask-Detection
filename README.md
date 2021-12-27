@@ -7,15 +7,17 @@
 * Tensorflow 2.5.0
 * Keras 2.6.0
 
-*Check out the versions of **TensorFlow** and **Keras** which are compatible with your python.
-
 *Tested on Windows 10 64bit*
+
+---
 
 ### Souce folder directory
 * **data**: All preprocessed images (128x128) for training, validating and testing. You can download the original images following to the next section below.
 * **face-mask-model.h5**: Trained model.
 * **train.py**: Used for training and evaluating model.
 * **test.py**: Used for running the program via webcam.
+
+---
 
 ### Dataset
 * The used dataset is aggregated from three datasets:
@@ -27,6 +29,8 @@
 * Here is the structure of the dataset
 
 	![Dataset Directory](./images/dataset-directory.png)
+
+---
 
 ### How to use
 * Step 1: Preprocess the dataset if you download data manually. *Skip this step if using the attached dataset*.
@@ -42,6 +46,8 @@
     python test.py
     ```
 
+---
+
 ### Evaluation
 
 <p align='middle'>
@@ -50,9 +56,11 @@
 </p>
 <p align='middle'><img src='./source/figures/evaluation.jpg' width=50% /></p>
 
+---
+
 ### References
 1. [Adrian Rosebrock (2020). COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning.](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
 2. [Hussain Mujtaba (2021). Real-time Face detection | Face Mask Detection using OpenCV.](https://www.mygreatlearning.com/blog/real-time-face-detection/)
 3. [Ryan Akilos (2017). A simple example: Confusion Matrix with Keras flow_from_directory.py](https://gist.github.com/RyanAkilos/3808c17f79e77c4117de35aa68447045)
-4. [Chandrika Deb. Face-Mask-Detection. Github](https://github.com/chandrikadeb7/Face-Mask-Detection)
+4. [Chandrika Deb. Face-Mask-Detection. Github.](https://github.com/chandrikadeb7/Face-Mask-Detection)
 5. [Real-Time Face Mask Detector with Python, OpenCV, Keras.](https://data-flair.training/blogs/face-mask-detection-with-python/)
