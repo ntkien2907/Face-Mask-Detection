@@ -32,11 +32,13 @@
 ---
 ### How to use
 * Step 1: Preprocessing the dataset which you have already dowloaded manually. 
+
 *(Skip this step if using the **attached dataset**)*
     ```
     python preprocess.py
     ```
 * Step 2: Training model.
+
 *(Skip this step if using the **attached model***)
     ```
     python train.py
