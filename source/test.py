@@ -4,27 +4,25 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load existing model
-model = load_model("face-mask-model.h5")
+model = load_model('face-mask-model.h5')
 
 # Label and Bounding Box
 results = {0: 'incorrectly mask', 1: 'with mask', 2: 'without mask'}
 GR_dict = {0: (255,0,0), 1: (0,255,0), 2: (0,0,255)}
-rect_size = 4
 
 # Start video capture
 cap = cv2.VideoCapture(0)
 
 # Find out the path to cascade classifier XML file
-cascPath = os.path.dirname(cv2.__file__) + "/data/haarcascade_frontalface_default.xml"
+cascPath = os.path.dirname(cv2.__file__) + '/data/haarcascade_frontalface_default.xml'
 haarcascade = cv2.CascadeClassifier(cascPath)
 
 while True:
     rval, im = cap.read()
     im = cv2.flip(im, 1, 1)
-    rerect_size = cv2.resize(im, (im.shape[1]//rect_size, im.shape[0]//rect_size))   
 
     # Convert RGB to grayscale
-    gray = cv2.cvtColor(rerect_size, cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 
     # Detect faces
     faces = haarcascade.detectMultiScale(gray, 
@@ -35,11 +33,19 @@ while True:
     
     for face in faces:
         # The coordinates of the face
-        x, y, w, h = [v*rect_size for v in face]
-        face_im = im[y:y+h, x:x+w]
+        x, y, w, h = face
+        
+        # Check the coordinates when face is detected nearly to 4 edges of the frame
+        y_new = 0 if y - 40 < 0 else y - 40
+        x_new = 0 if x - 40 < 0 else x - 40
+        y_h_new = im.shape[0] if y + h + 40 > im.shape[0] else y + h + 40
+        x_w_new = im.shape[1] if x + w + 40 > im.shape[1] else x + w + 40
+        
+        # Area with face
+        face_im = im[y_new:y_h_new, x_new:x_w_new]
         
         # Resize frame to 224x224 and normalize
-        resized = cv2.resize(im, (224,224))
+        resized = cv2.resize(face_im, (224,224))
         normalized = resized / 255.0
         
         # Expand dimensions from (224,224,3) to (1,224,224,3)
