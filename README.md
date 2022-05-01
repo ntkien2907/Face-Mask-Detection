@@ -5,7 +5,6 @@
 ### Prerequisites
 * Python 3.6
 * Tensorflow 2.5.0
-* Keras 2.6.0
 
 *Tested on Windows 10 - 64 bit*
 
